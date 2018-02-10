@@ -1,0 +1,29 @@
+var app = new Vue({
+	el:"#app",
+	data:{
+		logo:{
+			name_he:"He",
+			name_llo:"llo",
+			name_w:"W",
+			name_oody:"oody"
+		},
+		desc:{
+			en:"I am a coder",
+			ch:"我是一程序员"
+		},
+		links:{
+			email:{
+				text:"Email",
+				val:"hellowoody@outlook.com"
+			},
+			wechat:{
+				text:"Wechat",
+				val:"url",
+			},
+			zhihu:{
+				text:"Zhihu",
+				val:"https://zhuanlan.zhihu.com/hellowoody"
+			}
+		}
+	}
+});
