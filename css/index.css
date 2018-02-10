@@ -373,7 +373,57 @@ a:active,a:hover {
 	.links {
 		position: absolute;
 		left:49px;
-	    bottom: 160px;
+	    bottom: 210px;
+	}
+}
+
+@media(max-width:390px){
+	.left-wrapper {
+		height: 560px;
+    	padding: 25px 45px 75px;
+	}
+
+	.right-wrapper {
+		
+	}
+
+	.content-1-img {
+		margin-top: 150px;
+    	margin-bottom: 180px;
+	    margin-left: 17%;
+	}
+
+	.links {
+		position: absolute;
+		left:49px;
+	    bottom: 150px;
+	}
+}
+
+@media(max-width:330px){
+	.left-wrapper {
+		height: 560px;
+    	padding: 25px 45px 75px;
+	}
+
+	.right-wrapper {
+		
+	}
+	
+	.content-1-img {
+		margin-top: 150px;
+    	margin-bottom: 180px;
+	    margin-left: 17%;
+	}
+
+	.logo-desc {
+		width: 90px;
+	}
+
+	.links {
+		position: absolute;
+		left:8px;
+	    bottom: 60px;
 	}
 }
 
