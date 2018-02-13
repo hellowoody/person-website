@@ -36,9 +36,6 @@ h3 {
     line-height: 20px;
 }
 
-/*a {
-	background-color:transparent;
-}*/
 
 a:active,a:hover {
 	outline: 0
@@ -129,6 +126,11 @@ a:active,a:hover {
 	position: absolute;
 	left:49px;
     bottom: 40px;
+}
+
+.links-a {
+	text-decoration:none;
+	color:#333;
 }
 
 .links-text {
@@ -315,6 +317,20 @@ a:active,a:hover {
 	background-image:linear-gradient(180deg,#333,#333);
 }
 
+.footer_gradient{
+	position: fixed;
+	width: 100%;
+    height: 50px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    background: -webkit-gradient(linear,left top,left bottom,color-stop(0,hsla(0,0%,100%,0)),color-stop(33%,hsla(0,0%,100%,.33)),color-stop(66%,hsla(0,0%,100%,.73)),color-stop(91%,#fff));
+    background: -webkit-linear-gradient(top,hsla(0,0%,100%,0),hsla(0,0%,100%,.32) 69%);
+    background: -webkit-linear-gradient(top,hsla(0,0%,100%,0),hsla(0,0%,100%,.32) 69%);
+    background: linear-gradient(top,hsla(0,0%,100%,0),hsla(0,0%,100%,.32) 69%);
+}
+
 .copyright {
 	font-family: 'Museosans 100', sans-serif;
 	text-align: center;
@@ -338,6 +354,7 @@ a:active,a:hover {
 		margin-top: 150px;
     	margin-bottom: 180px;
 	}
+
 }
 
 @media(max-width:767px){

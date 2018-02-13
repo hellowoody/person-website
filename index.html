@@ -9,7 +9,9 @@
 	    <!--网站显示页logo图标 -->
 	    <link rel="shortcut icon" href="favicon.ico">
 		<link rel="stylesheet" type="text/css" href="css/index.css">
-		<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+		<link rel="stylesheet" type="text/css" href="css/dialog.css">
+		<script src="libs/vue/vue.min.js"></script>
+		<script src="libs/modernizr/modernizr.custom.js"></script>
 	</head>
 	<body>
 		<div id="app">
@@ -17,7 +19,7 @@
 				<div class="logo">
 					<div class="logo-background"></div>
 					<div class="logo-name-hello">
-						<span class="logo-name-hello-left">He</span>
+						<span class="logo-name-hello-left" >He</span>
 						<span class="logo-name-hello-right">llo</span>
 					</div>
 					<div class="logo-name-woody">
@@ -32,15 +34,24 @@
 					</div>
 				</div>
 				<div class="links links-email">
-					<div class="links-text">Email</div>
+					<div class="links-text" >
+						<a class="links-a" href="mailto:hellowoody@outlook.com?subject=hello%20woody">Email</a>
+					</div>
 					<div class="links-line"></div>
 				</div>
 				<div class="links links-wechat">
-					<div class="links-text">Wechat</div>
+					<div id="awesomedialog" class="links dialog">
+						<div class="dialog__content" data-dialog-close>
+							<img src="res/img/wechat.png">
+						</div>
+					</div>
+					<div class="links-text" data-dialog="awesomedialog" >Wechat</div>
 					<div class="links-line"></div>
 				</div>
 				<div class="links links-zhihu">
-					<div class="links-text">Zhihu</div>
+					<div class="links-text">
+						<a class="links-a" href="https://zhuanlan.zhihu.com/hellowoody" target="_blank">知乎专栏</a>
+					</div>
 					<div class="links-line"></div>
 				</div>
 			</div>
@@ -131,8 +142,11 @@
 						© 2018 make in TJ by woody
 					</div>
 				</div>
+				<div class="footer_gradient"></div>
 			</div>
 		</div>
 	</body>
 </html>
+<script src="js/utils/classie.js"></script>
+<script src="js/utils/dialog.js"></script>
 <script src="js/index.js"></script>
