@@ -1,6 +1,6 @@
 # personal page
 
-preview: http://hellowoody.github.com/searchBaiduMapCoordinate/
+preview: http://hellowoody.github.com/person-website/
  
 # 个人页面
 
