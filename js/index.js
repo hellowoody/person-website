@@ -10,3 +10,7 @@ var app = new Vue({
 	var dialog = new DialogFx(awesomeDialog);
 	dialogTriggle.addEventListener('click',dialog.toggle.bind(dialog));
 })(window);
+
+function jump(url){
+	window.open(url) 
+}

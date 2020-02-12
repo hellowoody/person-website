@@ -122,10 +122,26 @@ a:active,a:hover {
 	background-color: #009ee2;
 }
 
+.links-container{
+	display: flex;
+	align-items: flex-end;
+	position: absolute;
+	bottom: 30px;
+	flex-wrap:wrap;
+}
+
 .links {
 	position: absolute;
 	left:49px;
     bottom: 40px;
+}
+
+.links-new {
+	height: 100%;
+}
+
+.links-new-left {
+	margin-left:25px
 }
 
 .links-a {
